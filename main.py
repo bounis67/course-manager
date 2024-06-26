@@ -36,7 +36,7 @@ if __name__ == "__main__":
                 "Physics-Chemistry", "Social Studies", "English", "Civic Education"]
     choice = ""
     while loop == True:
-        print("Choose the computer\n1) Laptop \n2) Desktop")
+        print("Choose the computer\n1) OneDrive \n2) Desktop")
         choice = input("> ")
         try:
             choice = int(choice)  # Convert the user input to an integer

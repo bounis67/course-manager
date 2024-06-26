@@ -23,7 +23,7 @@ def add_chapter_content(main_directory, year, subject, chapter):
         os.makedirs(chapter_subject_directory, exist_ok=True)
 
         reference_file_path = os.path.join(
-            main_directory, "file_docx.docx")
+            main_directory, "script\\component\\file\\file_docx.docx")
         destination_file_name = f'{subject}_{chapter}_{file[:-5]}.docx'
         destination_file_path = os.path.join(
             chapter_subject_directory, destination_file_name)
